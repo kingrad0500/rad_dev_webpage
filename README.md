@@ -1,2 +1,2 @@
-# rad_dev_webpage
-My personal static webpage with my resume, skills and proyects
+# Ricardo Atoche WebPage!
+Since I had a lot of interest in my proyects and my public live as a software developer, I decided create a webpage with my information and all public things!
