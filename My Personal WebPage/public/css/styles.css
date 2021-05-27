@@ -1,0 +1,72 @@
+/*
+    Color palette: 
+        #fffbdf ; #c6ffc1 ; #34656d : #334443
+        #98ddca ; #d5ecc2 ; #ffd3b4 ; #ffaaa7
+
+    Fonts: 
+        headings: font-family: 'Quicksand', sans-serif;
+        Paragraphs: font-family: 'Libre Franklin', sans-serif;
+        Comments and others: font-family: 'Comfortaa', cursive;
+
+*/
+
+/*GENERAL*/
+body{
+    font-family: 'Libre Franklin', sans-serif;
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Quicksand', sans-serif;
+}
+p{
+    color: #334443;
+}
+/*CONTAINERS*/
+.container-fluid{
+    padding: 7% 12%;
+}
+/*SECTIONS*/
+.colored-section{
+    background-color: #c6ffc1;
+    color: #000;
+}
+
+/*NAVIGATION BAR*/
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.logo{
+    border-radius: 100%;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*TITLE*/
+#title{
+    background-color: #c6ffc1;
+    color: #334443;
+    text-align: left;
+}
+#title .container-fluid{
+    padding: 3%, 15%, 7%;
+}
+.icons{
+    position: relative;
+}
+.title-paragraph{
+    text-align: left;
+    
+}
+/*TITLE IMAGE*/
+.personal-photo{
+    width: 60%;
+    border-radius: 30%;
+    padding-bottom: 2rem;
+    position: relative;
+    left: 80px;
+}
