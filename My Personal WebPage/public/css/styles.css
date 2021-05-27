@@ -103,7 +103,7 @@ p{
 }
 
 /*ABOUT ME SECTION*/
-.about-me-heading{
+.about-me-heading, .resume-heading{
     text-align: left;
     text-decoration: underline;
 }
@@ -114,4 +114,13 @@ p{
 }
 .about-me-parag{
     font-size: 1.1rem;
+}
+
+/*RESUME SECTION*/
+.resume-section{
+    background-color: #ffd3b4;
+}
+.resume-experience-desc{
+    
+    border: 1px solid #334443;
 }
