@@ -7,6 +7,7 @@
         headings: font-family: 'Quicksand', sans-serif;
         Paragraphs: font-family: 'Libre Franklin', sans-serif;
         Comments and others: font-family: 'Comfortaa', cursive;
+        Big Heading Title: font-family: 'Josefin Sans', sans-serif;
 
 */
 
@@ -55,12 +56,25 @@ p{
 #title .container-fluid{
     padding: 3%, 15%, 7%;
 }
-.icons{
-    position: relative;
+.icons-mail{
+    position: absolute;
+    left: 90px;
+    top: 19.45rem;
 }
-.title-paragraph{
+.icons-phone{
+    position: absolute;
+    left: 99px;
+    bottom: 4px;
+}
+.title-paragraph-email{
     text-align: left;
-    
+    padding-left: 9rem;
+    line-height: 0.7;
+}
+.title-paragraph-phone{
+    text-align: left;
+    padding-top: 4rem;
+    padding-left: 9rem;
 }
 /*TITLE IMAGE*/
 .personal-photo{
@@ -69,4 +83,18 @@ p{
     padding-bottom: 2rem;
     position: relative;
     left: 80px;
+}
+
+/*TITLE HEADINGS*/
+.title-heading{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 4rem;
+}
+.paagraph-container{
+    padding-top: 3rem;
+}
+.title-profile-desc{
+    text-align: center;
+    font-size: 20px;
 }
