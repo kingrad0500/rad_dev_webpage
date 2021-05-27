@@ -31,6 +31,9 @@ p{
     background-color: #c6ffc1;
     color: #000;
 }
+.blur-white-section{
+    background-color: #fffbdf;
+}
 
 /*NAVIGATION BAR*/
 .navbar{
@@ -97,4 +100,18 @@ p{
 .title-profile-desc{
     text-align: center;
     font-size: 20px;
+}
+
+/*ABOUT ME SECTION*/
+.about-me-heading{
+    text-align: left;
+    text-decoration: underline;
+}
+.about-me-image{
+    width: 100%;
+    position: relative;
+    top: 7rem;
+}
+.about-me-parag{
+    font-size: 1.1rem;
 }
